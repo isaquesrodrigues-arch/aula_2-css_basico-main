@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site do batman</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        background-color: rgb(87, 77, 78);
+        color:rgb(185, 69, 189)
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+    }
+
+    .container{
+        width: 900px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .box{
+        background: rgba(95, 86, 86, 0.80);
+        border: 1px solid rgba(240, 240, 255, 0.40);
+        border-radius: 12px;
+        padding: 14px;
+        margin-bottom: 12px;
+    }
+
+    h1, h2{
+    color:rgb(182, 69, 69);
+    margin:0 0 8px;
+    }
+
+    .subtitulo{
+        color: #d1d5db;
+
+    }
+
+    p{
+        color: rgb(179, 116, 116);
+    }
+
+    #apresentacao{
+        border-left: 8px solid rgb(121, 119, 110);
+    }
+
+    .nav{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .nav-link{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        background: rgb(121, 119, 110);
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+    .nav-link:hover{
+       background: rgb(197, 174, 71);
+    }
+
+    .galery{
+        width: 920px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .bat1, .bat2, .bat3{
+        width: 220px;
+        height: 120px;
+        border: 2px solid aliceblue;
+        border-radius: 10px;
+    }
+
+    footer p{
+        color: cornsilk;
+        margin:6px 0 0;
+    }
+
+    .link{
+        color: rosybrown;
+        text-decoration: none;
+    }
+
+    .link:hover{
+        text-decoration: underline;
+    }
+    </style>
+</head>
+
+<body id="topo">
+    <div class="container" id="pagina">
+        <heder class="box" id="cabeçalho">
+            <div class="header-inferno">
+                <div class="header-inferno">
+                    <h1 class="subtitulo">Site do Batman</h1>
+                    <p class="subtitulo">
+                        Gotham City: <Strong>vigilância</Strong>, <em>estratégia</em> e tecnologia.
+                    </p>
+                </div>
+                     
+        </heder>
+
+        <nav class="box" id="menu">
+            <ul class="nav">
+                <li><a class="nav-link href="#aprensentacao">Quem é?</a></li>
+                <li><a class="nav-link href="#galeria">Galeria</a></li>
+                <li><a class="nav-link href="#rodape">Rodapé</a></li>
+            </ul>
+        </nav>
+
+        <main id="conteudo">"
+            <section class="box" id="apresentacao">
+                <h2>Quem é o Batman?</h2>
+                <p>Batman (Bruce Wayne) é um personagem da DC Comics e atua como justiceiro (sem ninguém ter pedido isso a ele) de Gotham. Ele não tem super poderes:sua força está em <strong>treinamento</strong>, <em>tecnologia</em> e riqueza (muita riqueza).</p>
+                <p>
+                    Em varias historias, Gotham representa
+                    problemas sociais: desigualdade, corrupção e violenci urbana.Alguns quadrinhos usam o batman como forma de  <strong>critica social</strong>,  mostrando como falhas nas instituiçoes, interesseseconomicos e auoritarismo afetam principalmnente quem tem menos direitos e oportunidades.
+                </p>
+            </section>
+            <section class="box" id="galeria">
+                <h2>Galeria de Imagens</h2>
+                <div class="galeria-imagens">
+                    <img src="bat1.jpg" alt="batman senta" class="imagem-galeria" width="220" height="120">
+                    <img src="bat2.jpg" alt="batamando " class="imagem-galeria" width="220" height="120">
+                    <img src="bat3.jpg" alt="Batman em ação" class="imagem-galeria" width="220" height="120">
+                </div>
+
+            </section>
+        </main>'
+        <footer class="box" id="rodape">
+            <p><a class="link" href="#topo ">Voltar ao topo</a></p>
+            <p>exemplo de website para trino css e html</p>
+        </footer>
+   
+</body>
+
+</html>
